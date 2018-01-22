@@ -11,9 +11,12 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 ```markdown
 Syntax highlighted code block
 
-# Header 1
+# Week 1 of Metis
 ## Header 2
 ### Header 3
+
+
+It’s the first week of Metis and we are starting  it off on a Tuesday due to Martin Luther King’s holiday. Although so many other people (not in the bootcamp) are rejoicing for the day off, I know what this really means… We will have to cram five days of  material into four and have one less day to work on our project which is still due on the same Friday. As expected the first week started as intense as I expected and the shorter time span made this even more so. 
 
 - Bulleted
 - List
