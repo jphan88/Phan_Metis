@@ -4,8 +4,8 @@ It’s the first week of Metis and we are starting  it off on a Tuesday due to M
 
 ## Project 1 Benson
 
-	We received an email from WomenTechWomenYes asking our team to use the power of analytics to help optimize the effectiveness of their street teams’ promotion of their annual event gala scheduled to occur early summer. These street teams will be located near subway stations to pass out flyers to patrons where they can receive free tickets to the gala. The goal of the gala is to increase women’s interest in technology and fundraise for scholarships. 
+We received an email from WomenTechWomenYes asking our team to use the power of analytics to help optimize the effectiveness of their street teams’ promotion of their annual event gala scheduled to occur early summer. These street teams will be located near subway stations to pass out flyers to patrons where they can receive free tickets to the gala. The goal of the gala is to increase women’s interest in technology and fundraise for scholarships. 
 
 ## Objective
 
-	Our task is to identify the optimal subway stations to place these street teams to increase attendance to the gala and maximize the likelihood of donations to the organization.
+Our task is to identify the optimal subway stations to place these street teams to increase attendance to the gala and maximize the likelihood of donations to the organization.
