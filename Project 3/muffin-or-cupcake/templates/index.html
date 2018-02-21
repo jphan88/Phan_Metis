@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Certified or Denied</title>
+  <style>
+  body{
+    font-family: sans-serif;
+    background-color: #4e814e;
+    
+  }
+  .button {
+    background-color: red;
+    font-family: Times New Roman;
+    border: none;
+    color: Black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+        .button_message {
+    background-color: rgb(144, 238, 144);
+    font-family: Times New Roman;
+    border: none;
+    color: Black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .animal-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0px 10px 0px;
+    width: 300px;
+    margin: auto;
+  }
+  </style>
+
+</head>
+
+<body align="center">
+
+  <h3> <font size="10">Welcome to the H-1B Petition Predictor!</font></h3>
+<img src="http://www.optnation.com/blog/wp-content/uploads/2017/11/H1BinTrouble-810x450.jpeg" height="300" width="800" alt="">
+
+   <h4><font size="5"> Enter the following information below:</font></h4>
+  <form action="/predict_recipe/" method="post">
+
+    <div class="animal-card" align="center">
+
+      Prevailing Wage:
+      <br>
+        <input type="text" name="prevailing_wage">
+      <br>
+      
+      Certified Rate by SOC:
+      <br>
+        <input type="text" name="accept_rate_soc">
+      <br>
+
+      Total Applications by SOC:
+      <br>
+        <input type="text" name="total_apps_soc">
+      <br>
+      
+      Certified Rate by Employer:
+      <br>
+      	<input type="text" name="accept_rate_emp">
+      <br>
+
+      Total Applications by Employer:
+      <br>
+        <input type="text" name="total_apps_emp">
+      <br>
+
+      Petition submitted in 2011?:
+      <br>
+        <input type="text" name="yr_2011">
+      <br>
+      
+      Petition submitted in 2012?:
+      <br>
+        <input type="text" name="yr_2012">
+      <br>
+      
+      Petition submitted in 2013?:
+      <br>
+        <input type="text" name="yr_2013">
+      <br>
+         Petition submitted in 2014?:
+      <br>
+        <input type="text" name="yr_2014">
+      <br>
+         Petition submitted in 2015?:
+      <br>
+        <input type="text" name="yr_2015">
+      <br> Petition submitted in 2016?:
+      <br>
+        <input type="text" name="yr_2016">
+      <br>
+       Full Time Position:
+      <br>
+        <input type="text" name="full_time">
+        
+    </div>
+
+  <br>
+
+  <button type="submit" class="button">
+    Petition Status
+  </button>
+  </form>
+
+  <br>
+
+  {% if message %}
+  <p class="button_message">{{message}}</p>
+  {% endif %}
+
+</body>
+</html>
