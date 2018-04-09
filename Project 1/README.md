@@ -1,3 +1,4 @@
+
 # Project 1 Benson
 
 ### Background
@@ -30,4 +31,4 @@ It was pretty cool and informative when I overlapped all of the metrics onto one
 ### Next Steps
 
 If we had more time to work on the project we would have loved to incorporate more metrics to better capture our target audience.  The NAICS has a technology sector code denoting the percent of people in technology related fields. This would have been very helpful in locating people that are interested in technology. Furthermore we could have used data of people holding computer science, math, and engineering degrees. These two datasets would have greatly improve finding people to attend and donate to the WYWT organization. 
-## Blog can be found here : [jphan88.github.io](https://jphan88.github.io)
+
