@@ -9,7 +9,7 @@ import numpy as np
   
 
     
-with open ('/Users/jennifer/Desktop/Phan_Metis/Project 3/Pickle Data/df_all_downsamp.pkl','rb') as picklefile:
+with open ('/Users/jennifer/Desktop/metis/Project3/Pickle Data/df_all_downsamp.pkl','rb') as picklefile:
     df_all_down_train = pickle.load(picklefile)
 y_D = df_all_down_train[['certified']]
 # X
