@@ -1,4 +1,4 @@
-### Background
+## Background
 This is a supervised classification model aimed to predict the classification of H-1B petitions. 
 
 ## Code Files
